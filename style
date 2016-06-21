@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+	background: #564e47;  /*Background color*/
+	color: #000;
+  font-size: 20px;
+  line-height: 32px;
+	font-family: 'Alegreya Sans SC', Tahoma, Arial, sans-serif;
+  font-weight: normal;
+}
+
+a {
+	color:#9A998E; // Namen farbe
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+
+h1 {
+  line-height: 100px;
+  font-size: 100px;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+
+h2, h3 {
+  line-height: 60px;
+  font-size: 60px;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+
+
+.footer, .page:after {
+  height: 600px;
+}
+.footer {
+  text-align: center;
+}
+  .footer a {
+    font-size: 16px;
+    font-weight: bolder;
+  }
