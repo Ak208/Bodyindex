@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Bodyindex/Kallorienverbrennung</title>
+<link href="style.css" rel="stylesheet">  
+  </head>
+
+<h1>Bodyindex</h1>
+<body>
+
+<script type="text/javascript">
+function Rechnen ()
+
+{
+
+var Ergebnis = (Math.round(document.formular.Gewicht.value/document.formular.Groesse.value/document.formular.Groesse.value*100*100*100)/100);
+document.getElementById ('ergebnis').value=(Ergebnis);
+
+
+}
+
+
+</script>
+<form name="formular" action="" > <br> <br>
+<h2>Gewicht:   <input type ="text" name ="Gewicht" size ="4" style= "width:200px; height:100px; font-size:30px" ></h2><br> <br>
+<h3>Groesse:   <input type ="text" name ="Groesse" size ="4" style= "width:200px ;height:100px; font-size:30px"  ></h3><br> <br>
+
+
+</br>
+
+<align="center">
+<h2><input type="button"  value ="Berechnen" onclick="Rechnen()"  style= "width:200px; height:100px; font-size:30px" /></h2> <br> <br>
+<h2><input type="text" Id="ergebnis" size="4" value="Ergebnis"style= "width:200px; height:100px; font-size:30px" /></h2>
+</br>
+</form>
+</align>
+
+  <div class="footer">
+    developed by <a href="">Anna Kelm, Yulia Vyglovskaya, Olga Tyaglo</a>
+  </div>
+
+	
+</body>
+</html>
